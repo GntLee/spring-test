@@ -19,6 +19,7 @@ public class GlobalTest {
         System.out.println(globalService.getMessage());
 
         GlobalService globalService1 = (GlobalService) context.getBean("globalService");
+        globalService1.setMessage("测试注入1。。。");
         System.out.println(globalService1.getMessage());
     }
 }
