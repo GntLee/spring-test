@@ -17,6 +17,6 @@ public class MailTest {
         mm.sendMail("mail@first-blood.cn",
                 "342418262@qq.com",
                 "spring mail",
-                "Testing only \n\n Hello Spring Email Sender");
+                "spring mail \n\n 这是一封测试邮件");
     }
 }
