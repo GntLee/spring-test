@@ -21,3 +21,7 @@
     </property>
 </bean>
 ```
+
+> Spring 表达式语言
+* 通过注解@Value("xxx") @Value("#{xxx}")注入
+* 通过xml注入
